@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-c++"
+	BuildStamp="20200707-0004-Experimental"
+	Name="f53ed481b39a"
+	Generator="ctest-3.10.2"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="7.4.0"
+	OSName="Linux"
+	Hostname="f53ed481b39a"
+	OSRelease="4.15.0-101-generic"
+	OSVersion="#102-Ubuntu SMP Mon May 11 10:07:26 UTC 2020"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="42"
+	ProcessorCacheSize="3072"
+	NumberOfLogicalCPU="2"
+	NumberOfPhysicalCPU="2"
+	TotalVirtualMemory="5991"
+	TotalPhysicalMemory="7959"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2347.19"
+	>
+	<DynamicAnalysis Checker="Valgrind">
+		<StartDateTime>Jul 07 00:04 UTC</StartDateTime>
+		<StartTestTime>1594080241</StartTestTime>
+		<TestList>
+			<Test>./tests/arrtest</Test>
+			<Test>./tests/hashmaptest</Test>
+			<Test>./tests/hashtest</Test>
+			<Test>./tests/nodeTreetest</Test>
+			<Test>./tests/slltest</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>arrtest</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/arrtest</FullName>
+			<FullCommandLine>/usr/local/bin/valgrind "--log-file=/home/coder/project/Documents/CodeSpace/structures/Testing/Temporary/MemoryChecker.1.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/coder/project/Documents/CodeSpace/structures/tests/arrtest"</FullCommandLine>
+			<Results/>
+			<Log compression="gzip" encoding="base64">eJwVjTkOwjAQAHtesUpDhTchiALJRQSiooMPWOvNQXzJa/N+knY0o9G6P3eXVmt4Dp/hdQMy4VggJg4gNaXMIksMAuPiGBqco2ekaDljyvHLVPARqXoORfC+8XcyxCglVyp1q3dtEvwZN+Ul2FOvuqtq0bOnmWlFy6Oprqh91hz+neox6Q==</Log>
+		</Test>
+		<Test Status="failed">
+			<Name>hashmaptest</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/hashmaptest</FullName>
+			<FullCommandLine>/usr/local/bin/valgrind "--log-file=/home/coder/project/Documents/CodeSpace/structures/Testing/Temporary/MemoryChecker.2.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/coder/project/Documents/CodeSpace/structures/tests/hashmaptest"</FullCommandLine>
+			<Results/>
+			<Log compression="gzip" encoding="base64">eJwVjbsOAiEQAHu/glxjJSuesTChuGis7PQHyLL3UGAJC36/d+1kJmNtfzJnY616DO/heVXo0r4qzpSUtJwLiSycRI1LINXBzJEA2VOBXPhDWOHO2CKlKnBb+Ss7JJBaGta21ps2CfxcmMqS/KHX5qKPECniTPgFT6Nroept1u3+nnMx6g==</Log>
+		</Test>
+		<Test Status="failed">
+			<Name>hashtest</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/hashtest</FullName>
+			<FullCommandLine>/usr/local/bin/valgrind "--log-file=/home/coder/project/Documents/CodeSpace/structures/Testing/Temporary/MemoryChecker.3.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/coder/project/Documents/CodeSpace/structures/tests/hashtest"</FullCommandLine>
+			<Results/>
+			<Log compression="gzip" encoding="base64">eJwVjTkOwjAQAHtesUpDhZckiALJRQSiooMPWOvNQXzJa/N+knY0o9G679pLpzU8h8/wugGZcCwQEweQmlJmkSUGgXFxDA3O0TNStJwx5fhlKviIVD2HInjf+DsZYpSSK5W61bs2Cf6Mm/IS7KlX7VWd0bOnmWlFy6Oprqh91hz+nvwx6w==</Log>
+		</Test>
+		<Test Status="failed">
+			<Name>nodeTreetest</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/nodeTreetest</FullName>
+			<FullCommandLine>/usr/local/bin/valgrind "--log-file=/home/coder/project/Documents/CodeSpace/structures/Testing/Temporary/MemoryChecker.4.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/coder/project/Documents/CodeSpace/structures/tests/nodeTreetest"</FullCommandLine>
+			<Results/>
+			<Log compression="gzip" encoding="base64">eJwVjTkOwjAQAHtesUpDhZdgRIHkIgJR0cEHrPXmAF/y2ryfpB3NaIzRp/6sjYHH8B6eVyAb9xVS5gjSci4ssqQoMC6eocM5BUZKjgvmkj5MFe+JWuBYBW8rf2VLjFJLo9rWetMmwZ/1U1miO2jVX9QRAweamb7oeLTNV7XNut0fn4Ux7A==</Log>
+		</Test>
+		<Test Status="failed">
+			<Name>slltest</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/slltest</FullName>
+			<FullCommandLine>/usr/local/bin/valgrind "--log-file=/home/coder/project/Documents/CodeSpace/structures/Testing/Temporary/MemoryChecker.5.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/coder/project/Documents/CodeSpace/structures/tests/slltest"</FullCommandLine>
+			<Results/>
+			<Log compression="gzip" encoding="base64">eJwVjbsOwjAMAHe+IurCRExpxYCUoQIxscEPRI77oEkcxQnfT7ue7nTGdJe2741Rz+EzvG4KbTwWxYmikppSJpGFo6hx8aQamDkQIDvKkDJ/CQs8GGugWATuG38niwRScsVSt3rXJoGf9VNeojt1ur3qMwQKOBOu4Gi01Re9z5rDH6AOMe0=</Log>
+		</Test>
+		<DefectList/>
+		<EndDateTime>Jul 07 00:04 UTC</EndDateTime>
+		<EndTestTime>1594080241</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</DynamicAnalysis>
+</Site>

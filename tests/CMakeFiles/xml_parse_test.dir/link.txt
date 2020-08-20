@@ -1,0 +1,1 @@
+/usr/bin/cc  -g -Wall -O0 -g  -rdynamic CMakeFiles/xml_parse_test.dir/xml_parse_test.c.o  -o xml_parse_test -Wl,-rpath,/home/coder/project/Documents/CodeSpace/structures/libs/check/src/.libs ../libs/check/src/.libs/libcheck.so -lefence ../bin/Debug/liblmain.a 

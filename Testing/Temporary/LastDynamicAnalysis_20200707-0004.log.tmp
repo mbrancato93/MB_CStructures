@@ -1,0 +1,19 @@
+Start testing: Jul 07 16:30 UTC
+----------------------------------------------------------
+1/5 Testing: arrtest
+1/5 Test: arrtest
+Command: "/usr/local/bin/valgrind" "--log-file=/home/coder/project/Documents/CodeSpace/structures/Testing/Temporary/MemoryChecker.1.log" "--trace-children=yes" "--leak-check=full" "/home/coder/project/Documents/CodeSpace/structures/tests/arrtest"
+Directory: /home/coder/project/Documents/CodeSpace/structures/tests
+"arrtest" start time: Jul 07 16:30 UTC
+Output:
+----------------------------------------------------------
+Running suite(s): M_ARRAY
+100%: Checks: 7, Failures: 0, Errors: 0
+<end of output>
+Test time =   1.72 sec
+----------------------------------------------------------
+Test Passed.
+"arrtest" end time: Jul 07 16:30 UTC
+"arrtest" time elapsed: 00:00:01
+----------------------------------------------------------
+

@@ -1,0 +1,1 @@
+/usr/bin/cc  -g -Wall -O0 -g  -rdynamic CMakeFiles/arrtest.dir/arrtest.c.o  -o arrtest ../bin/Debug/liblmbStruct.a 

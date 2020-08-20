@@ -1,0 +1,1 @@
+/usr/bin/cc  -g -Wall -O0 -g  -rdynamic CMakeFiles/slltest.dir/slltest.c.o  -o slltest ../bin/Debug/liblmbStruct.a 

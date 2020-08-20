@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/coder/project/Documents/CodeSpace/structures/tests/sllmemcheck.c
+main.h
+/home/coder/project/Documents/CodeSpace/structures/tests/main.h
+sllist.h
+/home/coder/project/Documents/CodeSpace/structures/tests/sllist.h
+
+include/main.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stddef.h
+-
+malloc.h
+include/malloc.h
+stdarg.h
+-
+stdbool.h
+-
+
+include/sllist.h
+main.h
+include/main.h
+

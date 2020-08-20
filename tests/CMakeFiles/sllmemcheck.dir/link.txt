@@ -1,0 +1,1 @@
+/usr/bin/cc  -g -Wall -O0 -g  -rdynamic CMakeFiles/sllmemcheck.dir/sllmemcheck.c.o  -o sllmemcheck ../bin/Debug/liblmbStruct.a 

@@ -1,0 +1,77 @@
+==13427== Memcheck, a memory error detector
+==13427== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13427== Using Valgrind-3.16.0 and LibVEX; rerun with -h for copyright info
+==13427== Command: /home/coder/project/Documents/CodeSpace/structures/tests/hashmaptest
+==13427== Parent PID: 13418
+==13427== 
+==13428== 
+==13428== HEAP SUMMARY:
+==13428==     in use at exit: 1,220 bytes in 33 blocks
+==13428==   total heap usage: 47 allocs, 14 frees, 9,882 bytes allocated
+==13428== 
+==13428== LEAK SUMMARY:
+==13428==    definitely lost: 0 bytes in 0 blocks
+==13428==    indirectly lost: 0 bytes in 0 blocks
+==13428==      possibly lost: 0 bytes in 0 blocks
+==13428==    still reachable: 1,220 bytes in 33 blocks
+==13428==         suppressed: 0 bytes in 0 blocks
+==13428== Reachable blocks (those to which a pointer was found) are not shown.
+==13428== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==13428== 
+==13428== For lists of detected and suppressed errors, rerun with: -s
+==13428== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==13429== Invalid read of size 8
+==13429==    at 0x1092DB: test_hashmap_init_fn (hashmaptest.c:19)
+==13429==    by 0x4E42F12: tcase_run_tfun_fork (check_run.c:497)
+==13429==    by 0x4E42F12: srunner_iterate_tcase_tfuns (check_run.c:256)
+==13429==    by 0x4E42F12: srunner_run_tcase (check_run.c:402)
+==13429==    by 0x4E42F12: srunner_iterate_suites (check_run.c:222)
+==13429==    by 0x4E42F12: srunner_run_tagged (check_run.c:814)
+==13429==    by 0x1097E3: main (hashmaptest.c:70)
+==13429==  Address 0x5c03c90 is 9 bytes after a block of size 71 free'd
+==13429==    at 0x4C31078: free (vg_replace_malloc.c:538)
+==13429==    by 0x4E410A2: send_loc_info (check_msg.c:109)
+==13429==    by 0x1092F3: test_hashmap_init_fn (hashmaptest.c:19)
+==13429==    by 0x4E42F12: tcase_run_tfun_fork (check_run.c:497)
+==13429==    by 0x4E42F12: srunner_iterate_tcase_tfuns (check_run.c:256)
+==13429==    by 0x4E42F12: srunner_run_tcase (check_run.c:402)
+==13429==    by 0x4E42F12: srunner_iterate_suites (check_run.c:222)
+==13429==    by 0x4E42F12: srunner_run_tagged (check_run.c:814)
+==13429==    by 0x1097E3: main (hashmaptest.c:70)
+==13429==  Block was alloc'd at
+==13429==    at 0x4C2FECB: malloc (vg_replace_malloc.c:307)
+==13429==    by 0x50E49B9: strdup (strdup.c:42)
+==13429==    by 0x4E4106B: send_loc_info (check_msg.c:106)
+==13429==    by 0x1092F3: test_hashmap_init_fn (hashmaptest.c:19)
+==13429==    by 0x4E42F12: tcase_run_tfun_fork (check_run.c:497)
+==13429==    by 0x4E42F12: srunner_iterate_tcase_tfuns (check_run.c:256)
+==13429==    by 0x4E42F12: srunner_run_tcase (check_run.c:402)
+==13429==    by 0x4E42F12: srunner_iterate_suites (check_run.c:222)
+==13429==    by 0x4E42F12: srunner_run_tagged (check_run.c:814)
+==13429==    by 0x1097E3: main (hashmaptest.c:70)
+==13429== 
+==13427== 
+==13427== Process terminating with default action of signal 2 (SIGINT)
+==13427==    at 0x512B687: waitpid (waitpid.c:30)
+==13427==    by 0x4E4307B: tcase_run_tfun_fork (check_run.c:522)
+==13427==    by 0x4E4307B: srunner_iterate_tcase_tfuns (check_run.c:256)
+==13427==    by 0x4E4307B: srunner_run_tcase (check_run.c:402)
+==13427==    by 0x4E4307B: srunner_iterate_suites (check_run.c:222)
+==13427==    by 0x4E4307B: srunner_run_tagged (check_run.c:814)
+==13427==    by 0x1097E3: main (hashmaptest.c:70)
+==13427== 
+==13427== HEAP SUMMARY:
+==13427==     in use at exit: 1,362 bytes in 37 blocks
+==13427==   total heap usage: 52 allocs, 15 frees, 18,815 bytes allocated
+==13427== 
+==13427== LEAK SUMMARY:
+==13427==    definitely lost: 0 bytes in 0 blocks
+==13427==    indirectly lost: 0 bytes in 0 blocks
+==13427==      possibly lost: 0 bytes in 0 blocks
+==13427==    still reachable: 1,362 bytes in 37 blocks
+==13427==         suppressed: 0 bytes in 0 blocks
+==13427== Reachable blocks (those to which a pointer was found) are not shown.
+==13427== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==13427== 
+==13427== For lists of detected and suppressed errors, rerun with: -s
+==13427== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

@@ -1,0 +1,4 @@
+cmake .
+make
+ctest (standard test run)
+ctest -T memcheck (run valgrind on tests)

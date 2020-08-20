@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/coder/project/Documents/CodeSpace/structures/tests/hashmapmemtest.c
+main.h
+/home/coder/project/Documents/CodeSpace/structures/tests/main.h
+hashmap.h
+/home/coder/project/Documents/CodeSpace/structures/tests/hashmap.h
+malloc.h
+/home/coder/project/Documents/CodeSpace/structures/tests/malloc.h
+
+include/hashmap.h
+sllist.h
+include/sllist.h
+
+include/main.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stddef.h
+-
+malloc.h
+include/malloc.h
+stdarg.h
+-
+stdbool.h
+-
+
+include/sllist.h
+main.h
+include/main.h
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../bin/Debug/liblmbStruct.a  CMakeFiles/lmbStruct.dir/hash.c.o CMakeFiles/lmbStruct.dir/hashmap.c.o CMakeFiles/lmbStruct.dir/mArray.c.o CMakeFiles/lmbStruct.dir/main.c.o CMakeFiles/lmbStruct.dir/nodeTree.c.o CMakeFiles/lmbStruct.dir/sllist.c.o
+/usr/bin/ranlib ../bin/Debug/liblmbStruct.a

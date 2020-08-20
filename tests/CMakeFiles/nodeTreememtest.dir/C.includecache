@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/coder/project/Documents/CodeSpace/structures/tests/nodeTreememtest.c
+main.h
+/home/coder/project/Documents/CodeSpace/structures/tests/main.h
+nodeTree.h
+/home/coder/project/Documents/CodeSpace/structures/tests/nodeTree.h
+
+include/hashmap.h
+sllist.h
+include/sllist.h
+
+include/main.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stddef.h
+-
+malloc.h
+include/malloc.h
+stdarg.h
+-
+stdbool.h
+-
+
+include/nodeTree.h
+main.h
+include/main.h
+sllist.h
+include/sllist.h
+hashmap.h
+include/hashmap.h
+
+include/sllist.h
+main.h
+include/main.h
+

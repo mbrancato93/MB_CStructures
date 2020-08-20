@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../bin/Debug/liblmain.a  CMakeFiles/lmain.dir/hash.c.o CMakeFiles/lmain.dir/hashmap.c.o CMakeFiles/lmain.dir/mArray.c.o CMakeFiles/lmain.dir/main.c.o CMakeFiles/lmain.dir/nodeTree.c.o CMakeFiles/lmain.dir/sllist.c.o
+/usr/bin/ranlib ../bin/Debug/liblmain.a

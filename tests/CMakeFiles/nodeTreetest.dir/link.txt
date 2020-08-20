@@ -1,0 +1,1 @@
+/usr/bin/cc  -g -Wall -O0 -g  -rdynamic CMakeFiles/nodeTreetest.dir/nodeTreetest.c.o  -o nodeTreetest ../bin/Debug/liblmbStruct.a 

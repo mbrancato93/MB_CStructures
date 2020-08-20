@@ -1,0 +1,1 @@
+/usr/bin/cc  -g -Wall -O0 -g  -rdynamic CMakeFiles/hashtest.dir/hashtest.c.o  -o hashtest ../bin/Debug/liblmbStruct.a 

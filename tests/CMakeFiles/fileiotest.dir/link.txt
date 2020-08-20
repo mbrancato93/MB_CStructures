@@ -1,0 +1,1 @@
+/usr/bin/cc  -g -Wall -O0 -g  -rdynamic CMakeFiles/fileiotest.dir/fileiotest.c.o  -o fileiotest -Wl,-rpath,/home/coder/project/Documents/CodeSpace/structures/libs/check/src/.libs ../libs/check/src/.libs/libcheck.so -lefence ../bin/Debug/liblmain.a 

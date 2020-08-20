@@ -1,0 +1,1 @@
+/usr/bin/cc  -g -Wall -O0 -g  -rdynamic CMakeFiles/main.dir/hash.c.o CMakeFiles/main.dir/hashmap.c.o CMakeFiles/main.dir/mArray.c.o CMakeFiles/main.dir/main.c.o CMakeFiles/main.dir/nodeTree.c.o CMakeFiles/main.dir/sllist.c.o  -o ../bin/Debug/main 

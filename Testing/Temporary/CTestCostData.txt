@@ -1,0 +1,13 @@
+tests 7 0.00309958
+arrtest 38 0.000497588
+slltest 34 0.0013388
+hashtest 28 0
+nodeTreetest 20 0.000738737
+hashmaptest 19 0.000956396
+hashmapmemtest 25 0.000356077
+sllmemcheck 24 0.000245257
+nodeTreememtest 17 9.03056e-05
+fileiotest 5 0.0006976
+xml_parse_test 5 0.00466817
+---
+hashtest

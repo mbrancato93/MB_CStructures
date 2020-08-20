@@ -1,0 +1,252 @@
+Start testing: Jul 24 15:05 UTC
+----------------------------------------------------------
+1/10 Testing: arrtest
+1/10 Test: arrtest
+Command: "/home/coder/project/Documents/CodeSpace/structures/tests/arrtest"
+Directory: /home/coder/project/Documents/CodeSpace/structures/tests
+"arrtest" start time: Jul 24 15:05 UTC
+Output:
+----------------------------------------------------------
+
+  Electric Fence 2.2 Copyright (C) 1987-1999 Bruce Perens <bruce@perens.com>
+Running suite(s): M_ARRAY
+100%: Checks: 7, Failures: 0, Errors: 0
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"arrtest" end time: Jul 24 15:05 UTC
+"arrtest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/10 Testing: fileiotest
+2/10 Test: fileiotest
+Command: "/home/coder/project/Documents/CodeSpace/structures/tests/fileiotest"
+Directory: /home/coder/project/Documents/CodeSpace/structures/tests
+"fileiotest" start time: Jul 24 15:05 UTC
+Output:
+----------------------------------------------------------
+
+  Electric Fence 2.2 Copyright (C) 1987-1999 Bruce Perens <bruce@perens.com>
+Running suite(s): FILEIO
+8
+100%: Checks: 2, Failures: 0, Errors: 0
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"fileiotest" end time: Jul 24 15:05 UTC
+"fileiotest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/10 Testing: hashmapmemtest
+3/10 Test: hashmapmemtest
+Command: "/home/coder/project/Documents/CodeSpace/structures/tests/hashmapmemtest"
+Directory: /home/coder/project/Documents/CodeSpace/structures/tests
+"hashmapmemtest" start time: Jul 24 15:05 UTC
+Output:
+----------------------------------------------------------
+
+  Electric Fence 2.2 Copyright (C) 1987-1999 Bruce Perens <bruce@perens.com>
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"hashmapmemtest" end time: Jul 24 15:05 UTC
+"hashmapmemtest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/10 Testing: hashmaptest
+4/10 Test: hashmaptest
+Command: "/home/coder/project/Documents/CodeSpace/structures/tests/hashmaptest"
+Directory: /home/coder/project/Documents/CodeSpace/structures/tests
+"hashmaptest" start time: Jul 24 15:05 UTC
+Output:
+----------------------------------------------------------
+
+  Electric Fence 2.2 Copyright (C) 1987-1999 Bruce Perens <bruce@perens.com>
+Running suite(s): HASHMAP
+ADD: 0
+ADD: 1
+ADD: 2
+ADD: 3
+ADD: 4
+ADD: 5
+ADD: 6
+[IND 0]
+< KEY: another one || VAL: another val >
+[IND 1]
+[IND 2]
+< KEY: whatever || VAL: yeah >
+< KEY: yes || VAL: no >
+[IND 3]
+< KEY: second word || VAL: second val >
+< KEY: test1 || VAL: test2 >
+[IND 4]
+[IND 5]
+< KEY: first word || VAL: first val >
+< KEY: this is it || VAL: cool >
+[IND 6]
+[IND 0]
+< KEY: 1 || VAL: 1 >
+< KEY: 8 || VAL: 8 >
+[IND 1]
+< KEY: 2 || VAL: 2 >
+< KEY: 9 || VAL: 9 >
+[IND 2]
+< KEY: 3 || VAL: 3 >
+[IND 3]
+< KEY: 4 || VAL: 4 >
+[IND 4]
+< KEY: 5 || VAL: 5 >
+[IND 5]
+< KEY: 6 || VAL: 6 >
+[IND 6]
+< KEY: 0 || VAL: 0 >
+< KEY: 7 || VAL: 7 >
+[IND 0]
+[IND 1]
+[IND 2]
+[IND 3]
+[IND 4]
+[IND 5]
+[IND 6]
+[IND 0]
+< KEY: 2 || VAL: 2 >
+[IND 1]
+< KEY: 3 || VAL: 3 >
+[IND 2]
+< KEY: 4 || VAL: 4 >
+[IND 3]
+< KEY: 5 || VAL: 5 >
+[IND 4]
+< KEY: 6 || VAL: 6 >
+[IND 5]
+< KEY: 7 || VAL: 7 >
+[IND 6]
+< KEY: 8 || VAL: 8 >
+[IND 7]
+< KEY: 9 || VAL: 9 >
+[IND 8]
+< KEY: 0 || VAL: 0 >
+[IND 9]
+< KEY: 1 || VAL: 1 >
+100%: Checks: 5, Failures: 0, Errors: 0
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"hashmaptest" end time: Jul 24 15:05 UTC
+"hashmaptest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/10 Testing: hashtest
+5/10 Test: hashtest
+Command: "/home/coder/project/Documents/CodeSpace/structures/tests/hashtest"
+Directory: /home/coder/project/Documents/CodeSpace/structures/tests
+"hashtest" start time: Jul 24 15:05 UTC
+Output:
+----------------------------------------------------------
+
+  Electric Fence 2.2 Copyright (C) 1987-1999 Bruce Perens <bruce@perens.com>
+Running suite(s): HASH
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Failed.
+"hashtest" end time: Jul 24 15:05 UTC
+"hashtest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/10 Testing: nodeTreememtest
+6/10 Test: nodeTreememtest
+Command: "/home/coder/project/Documents/CodeSpace/structures/tests/nodeTreememtest"
+Directory: /home/coder/project/Documents/CodeSpace/structures/tests
+"nodeTreememtest" start time: Jul 24 15:05 UTC
+Output:
+----------------------------------------------------------
+
+  Electric Fence 2.2 Copyright (C) 1987-1999 Bruce Perens <bruce@perens.com>
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"nodeTreememtest" end time: Jul 24 15:05 UTC
+"nodeTreememtest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/10 Testing: nodeTreetest
+7/10 Test: nodeTreetest
+Command: "/home/coder/project/Documents/CodeSpace/structures/tests/nodeTreetest"
+Directory: /home/coder/project/Documents/CodeSpace/structures/tests
+"nodeTreetest" start time: Jul 24 15:05 UTC
+Output:
+----------------------------------------------------------
+
+  Electric Fence 2.2 Copyright (C) 1987-1999 Bruce Perens <bruce@perens.com>
+Running suite(s): NODE_TREE
+100%: Checks: 4, Failures: 0, Errors: 0
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"nodeTreetest" end time: Jul 24 15:05 UTC
+"nodeTreetest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/10 Testing: sllmemcheck
+8/10 Test: sllmemcheck
+Command: "/home/coder/project/Documents/CodeSpace/structures/tests/sllmemcheck"
+Directory: /home/coder/project/Documents/CodeSpace/structures/tests
+"sllmemcheck" start time: Jul 24 15:05 UTC
+Output:
+----------------------------------------------------------
+
+  Electric Fence 2.2 Copyright (C) 1987-1999 Bruce Perens <bruce@perens.com>
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"sllmemcheck" end time: Jul 24 15:05 UTC
+"sllmemcheck" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/10 Testing: slltest
+9/10 Test: slltest
+Command: "/home/coder/project/Documents/CodeSpace/structures/tests/slltest"
+Directory: /home/coder/project/Documents/CodeSpace/structures/tests
+"slltest" start time: Jul 24 15:05 UTC
+Output:
+----------------------------------------------------------
+
+  Electric Fence 2.2 Copyright (C) 1987-1999 Bruce Perens <bruce@perens.com>
+Running suite(s): SLL
+100%: Checks: 5, Failures: 0, Errors: 0
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"slltest" end time: Jul 24 15:05 UTC
+"slltest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/10 Testing: xml_parse_test
+10/10 Test: xml_parse_test
+Command: "/home/coder/project/Documents/CodeSpace/structures/tests/xml_parse_test"
+Directory: /home/coder/project/Documents/CodeSpace/structures/tests
+"xml_parse_test" start time: Jul 24 15:05 UTC
+Output:
+----------------------------------------------------------
+
+  Electric Fence 2.2 Copyright (C) 1987-1999 Bruce Perens <bruce@perens.com>
+Running suite(s): XML_PARSE
+100%: Checks: 7, Failures: 0, Errors: 0
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"xml_parse_test" end time: Jul 24 15:05 UTC
+"xml_parse_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 24 15:05 UTC

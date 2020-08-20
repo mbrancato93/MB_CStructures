@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-c++"
+	BuildStamp="20200604-0435-Experimental"
+	Name="f53ed481b39a"
+	Generator="ctest-3.10.2"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="7.4.0"
+	OSName="Linux"
+	Hostname="f53ed481b39a"
+	OSRelease="4.15.0-101-generic"
+	OSVersion="#102-Ubuntu SMP Mon May 11 10:07:26 UTC 2020"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="42"
+	ProcessorCacheSize="3072"
+	NumberOfLogicalCPU="2"
+	NumberOfPhysicalCPU="2"
+	TotalVirtualMemory="5991"
+	TotalPhysicalMemory="7959"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="1861.32"
+	>
+	<DynamicAnalysis Checker="Valgrind">
+		<StartDateTime>Jun 04 05:37 UTC</StartDateTime>
+		<StartTestTime>1591249051</StartTestTime>
+		<TestList>
+			<Test>./tests/tests</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>tests</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/tests</FullName>
+			<FullCommandLine>/home/coder/project/Documents/CodeSpace/template_project/progs/valgrind-3.16.0/coregrind/valgrind "--log-file=/home/coder/project/Documents/CodeSpace/template_project/Testing/Temporary/MemoryChecker.1.log" "-q" "--tool=memcheck" "--leak-check=yes" "--show-reachable=yes" "--num-callers=50" "/home/coder/project/Documents/CodeSpace/template_project/tests/tests"</FullCommandLine>
+			<Results>
+				<Defect type="Potential Memory Leak">31</Defect>
+			</Results>
+			<Log compression="gzip" encoding="base64">eJzlmd1u2jAYhs+5Cp9MolLV+Sd/RKVqA2SatknTbiAKwaRR0wQlYdrufp+DaIHGtHJK5oaeAKlf27xPsP29uZ7f/Pj57frz/AaNxzaxnPEYOWj+t+IlSjJE0DzNo4cShQVHZZWkKSp4GN2H85SL/6d5WcKVKC8W0DZfIkYGT/3AX1gh/MeYUH828Vz0GKbQGxr+joOCr9Iw4sHm0lXkMmxf7Ennf4V0ZmCKHRfxrTa659FDwIsiL0BlUZnIM1y0aZsmZRVEMO2Kb+XiklCTRjXz2RRmW66Tiu8LQWMbDRqCnYk1AklVBLUMDcFAMQRpGkI0nzLhB1i4bUnxTsvB9ftxof3hYs5AXUVh+ZILMZnEabsZTNMMuwXD+gRmKgcj+8VoC8boERjfkoMxPxoYs09gfDkY66OBsfoDxhJDysA0zVNrMHaPwBAiB+N8NDBOf8B4+A5MLtZZxosXaAw8kng9e+E1OZHXox55zWZHvCayo1Z3XhPcF7MNPLWmz2YnWVIFaR7HSRY/dZDHoDdx034NHVCP4OcO4KXuZCuGz9LjcaO4CuOYL/blDpGVPb5ziJyeCnmPKn/LhNmC0QFsGgA6qPJasrPV2E2G17yov3O3VLyAYTf7TnmA3JHMfb8LOXLZr7xD5D0KFdog312NjyN/UxedIAd2asw1yitgI6T2sY1QdsBT2AiJpeiXRjEC89mEyiJNS3ZCO32kSQ1Fb/VKAkZ3r68/jSWKvmGzMhm9ooBWZDSNm5XR6BUGtESjZeCsjEavOKAdGj0jZ2U0eqUHLdFoGTqroqF6ZQ2t0GgaOyuj0SsTaIdGz+BZGY1GtTvzHQO+ebBxN1wsAvH1n/2ljVW7MOzOavRXdirr0l+N6uS2t3530b6y2xpV2a3d7izcV3a7N3X3+aX7ysy1qug9z9zxjccAGd6ky3W2j40QCTY8HeE3cSf4zLn3KC44t8c6ysx7lEOc23MdS5W5RgGHOHHSYydOWSWscAayFZ+DMY1SB+YbDpUWp+T/5QamqeruKYIDE09M07ddtFzkK57d3n75/tWbBPSKXplomOSby7UFkrWIkBHIRaugelwFyyR9Wocey7geWKakDOwrebVeBatkdShrZFQvIJi9fsqQrj6H4nc9ZfyCfsV5qb59huWFi2BdTcQ6OyAYf3LRRIxSuohcIj9M0nXB4QO+RDNxN4u3g39UaoMT====</Log>
+		</Test>
+		<DefectList>
+			<Defect Type="Potential Memory Leak"/>
+		</DefectList>
+		<EndDateTime>Jun 04 05:37 UTC</EndDateTime>
+		<EndTestTime>1591249052</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</DynamicAnalysis>
+</Site>
